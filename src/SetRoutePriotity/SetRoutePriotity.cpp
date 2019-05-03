@@ -62,7 +62,7 @@ BOOL CSetRoutePriotityApp::InitInstance()
 	// Change the registry key under which our settings are stored
 	// TODO: You should modify this string to be something appropriate
 	// such as the name of your company or organization
-	SetRegistryKey(_T("JTDLS SET ROUTE"));
+	SetRegistryKey(_T("ROUTE PRIORITY SETTER"));
 
 	CSetRoutePriotityDlg dlg;
 	m_pMainWnd = &dlg;

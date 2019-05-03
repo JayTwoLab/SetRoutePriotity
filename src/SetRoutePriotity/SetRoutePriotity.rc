@@ -74,13 +74,13 @@ IDR_MAINFRAME           ICON                    "res\\router_4697.ico"
 IDD_SETROUTEPRIOTITY_DIALOG DIALOGEX 0, 0, 239, 147
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
 EXSTYLE WS_EX_APPWINDOW
-CAPTION "JTDLS 전술자료체계 네트워크 설정"
-FONT 9, "굴림체", 400, 0, 0x81
+CAPTION "Network Priority Setting"
+FONT 9, "Segoe UI", 400, 0, 0x81
 BEGIN
     LISTBOX         IDC_IP_LIST,44,56,146,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
-    DEFPUSHBUTTON   "설정(&C)",IDOK,45,124,56,16
-    PUSHBUTTON      "취소(&C)",IDCANCEL,134,124,56,16
-    LTEXT           "멀티캐스팅 통신을 지원할 ip를 설정하여 주십시오\r\n\r\nNOTICE:\r\n 1) 설정은 정상적인 ip가 설정된 네트워크만 지원합니다\r\n 2) 설정 시 JTDLS 형상항목은 모두 종료되어 있어야 합니다",IDC_STATIC,7,7,225,41
+    DEFPUSHBUTTON   "Setting(&S)",IDOK,45,124,56,16
+    PUSHBUTTON      "Cancel(&C)",IDCANCEL,134,124,56,16
+    LTEXT           "Please select the network whose priority you want to increase.\r\n\r\nNOTICE:\r\n1) The setting only supports networks with normal ip settings.\r\n2) All network software must be shutdown during setup.",IDC_STATIC,7,7,225,41
 END
 
 
@@ -106,15 +106,15 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "Comments", "JTDLS"
-            VALUE "CompanyName", "(c) SICC"
-            VALUE "FileDescription", "JTDLS"
+            VALUE "Comments", "SetRoutePriotity"
+            VALUE "CompanyName", "SetRoutePriotity"
+            VALUE "FileDescription", "SetRoutePriotity"
             VALUE "FileVersion", "1.0.0.0"
             VALUE "InternalName", "SetRoutePriotity.exe"
-            VALUE "LegalCopyright", "(c) SICC"
-            VALUE "LegalTrademarks", "JTDLS"
+            VALUE "LegalCopyright", "SetRoutePriotity"
+            VALUE "LegalTrademarks", "SetRoutePriotity"
             VALUE "OriginalFilename", "SetRoutePriotity.exe"
-            VALUE "ProductName", "JTDLS"
+            VALUE "ProductName", "SetRoutePriotity"
             VALUE "ProductVersion", "1.0.0.0"
         END
     END

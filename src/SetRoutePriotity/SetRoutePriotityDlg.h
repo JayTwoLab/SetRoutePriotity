@@ -36,7 +36,7 @@ public:
 	afx_msg void OnBnClickedOk();
 
 private:
-	BOOL DeleteJTDLSRoute(); 
-	BOOL SetJTDLSRoute(CString strIP); 
+	BOOL DeleteRoute(); 
+	BOOL SetRoute(CString strIP); 
 
 };

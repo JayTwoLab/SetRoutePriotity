@@ -45,7 +45,7 @@ CIPEnum::~CIPEnum()
 BOOL CIPEnum::Enumerate()
 {
   //get this machines host name
-  char szHostname[256];
+  char szHostname[4096];
   if (gethostname(szHostname, sizeof(szHostname)))
   {
     TRACE(_T("Failed in call to gethostname, WSAGetLastError returns %d\n"), WSAGetLastError());

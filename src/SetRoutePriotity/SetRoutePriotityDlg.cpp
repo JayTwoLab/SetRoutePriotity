@@ -115,15 +115,15 @@ void CSetRoutePriotityDlg::OnBnClickedOk()
 
 		BOOL bR1 = FALSE;
 		BOOL bR2 = FALSE;
-		bR1 = DeleteJTDLSRoute();
-		bR2 = SetJTDLSRoute( strIP ); 
+		bR1 = DeleteRoute();
+		bR2 = SetRoute( strIP ); 
 	
 		strIP.ReleaseBuffer();
 
 		if ( TRUE == bR1 &&
 			 TRUE == bR2 )
 		{
-			AfxMessageBox( _T("설정 성공") ); 
+			AfxMessageBox( _T("Success to setting network priority") ); 
 		}
 	}
 	
@@ -132,7 +132,7 @@ void CSetRoutePriotityDlg::OnBnClickedOk()
 
 //---------------------------------------------------------------------------
 
-BOOL CSetRoutePriotityDlg::DeleteJTDLSRoute()
+BOOL CSetRoutePriotityDlg::DeleteRoute()
 {
 	CString strCommand;
 	strCommand.Format( _T("route.exe delete 224.0.0.0") ); 
@@ -174,7 +174,7 @@ BOOL CSetRoutePriotityDlg::DeleteJTDLSRoute()
 
 //---------------------------------------------------------------------------
 
-BOOL CSetRoutePriotityDlg::SetJTDLSRoute(CString strIP)
+BOOL CSetRoutePriotityDlg::SetRoute(CString strIP)
 {
 	CString strCommand;
 	strCommand.Format( 
