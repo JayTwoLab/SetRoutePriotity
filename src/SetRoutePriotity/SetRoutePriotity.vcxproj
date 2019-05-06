@@ -208,7 +208,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ipenum.cpp" />
+    <ClCompile Include="IPenum.cpp" />
     <ClCompile Include="RouteIPEnum.cpp" />
     <ClCompile Include="SetRoutePriotity.cpp" />
     <ClCompile Include="SetRoutePriotityDlg.cpp" />
@@ -220,7 +220,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IPENUM.H" />
+    <ClInclude Include="IPenum.H" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RouteIPEnum.h" />
     <ClInclude Include="SetRoutePriotity.h" />
