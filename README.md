@@ -13,4 +13,4 @@
 
 - This project is for my personal use.
 	- If you need an open license, leave an issue to me.
-- The copywriter of IPENUM is at PJ Naughter.
+- The copyright of IPENUM is at PJ Naughter.
