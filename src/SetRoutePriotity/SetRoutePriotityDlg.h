@@ -1,10 +1,11 @@
 // SetRoutePriotityDlg.h : header file
 //
 
+#ifndef _SET_ROUTE_PRI_DLG_H_
+#define _SET_ROUTE_PRI_DLG_H_
+
 #pragma once
 #include "afxwin.h"
-
-
 
 // CSetRoutePriotityDlg dialog
 class CSetRoutePriotityDlg : public CDialog
@@ -36,7 +37,8 @@ public:
 	afx_msg void OnBnClickedOk();
 
 private:
-	BOOL DeleteRoute(); 
-	BOOL SetRoute(CString strIP); 
+	
 
 };
+
+#endif

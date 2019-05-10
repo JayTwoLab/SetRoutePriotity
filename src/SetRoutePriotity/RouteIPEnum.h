@@ -1,3 +1,5 @@
+#ifndef _ROUTE_IP_ENUM_H
+#define _ROUTE_IP_ENUM_H
 
 #pragma once
 
@@ -18,4 +20,4 @@ public:
 
 };
 
-
+#endif

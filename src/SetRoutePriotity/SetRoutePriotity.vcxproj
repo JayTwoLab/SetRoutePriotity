@@ -220,7 +220,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IPenum.H" />
+    <ClInclude Include="IPenum.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RouteIPEnum.h" />
     <ClInclude Include="SetRoutePriotity.h" />
@@ -228,6 +228,7 @@
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\router_4697.ico" />
     <Image Include="res\SetRoutePriotity.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -38,10 +38,7 @@
 #include <afxwin.h>         // MFC core and standard components
 #include <afxext.h>         // MFC extensions
 
-
 #include <afxdisp.h>        // MFC Automation classes
-
-
 
 #ifndef _AFX_NO_OLE_SUPPORT
 #include <afxdtctl.h>		// MFC support for Internet Explorer 4 Common Controls
@@ -50,23 +47,16 @@
 #include <afxcmn.h>			// MFC support for Windows Common Controls
 #endif // _AFX_NO_AFXCMN_SUPPORT
 
-
 #include <afxsock.h>		// MFC socket extensions
 
-
-
 #include "Resource.h"
-
 #include "SetRoutePriotity.h"
-
-#include "ipenum.h"
-
-
+#include "IPenum.h"
 #include "RouteIPEnum.h"
-
 #include "SetRoutePriotityDlg.h" 
 
-
+BOOL SetRoute(CString strIP);
+BOOL DeleteRoute();
 
 #ifdef _UNICODE
 #if defined _M_IX86

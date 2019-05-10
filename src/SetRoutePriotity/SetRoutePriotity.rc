@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Korean resources
+// Korean (Korea) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
-#ifdef _WIN32
 LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
 #pragma code_page(949)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -66,6 +64,7 @@ END
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\router_4697.ico"
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Dialog
@@ -78,7 +77,7 @@ CAPTION "Network Priority Setting"
 FONT 9, "Segoe UI", 400, 0, 0x81
 BEGIN
     LISTBOX         IDC_IP_LIST,44,56,146,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
-    DEFPUSHBUTTON   "Setting(&S)",IDOK,45,124,56,16
+    DEFPUSHBUTTON   "Set(&S)",IDOK,45,124,56,16
     PUSHBUTTON      "Cancel(&C)",IDCANCEL,134,124,56,16
     LTEXT           "Please select the network whose priority you want to increase.\r\n\r\nNOTICE:\r\n1) The setting only supports networks with normal ip settings.\r\n2) All network software must be shutdown during setup.",IDC_STATIC,7,7,225,41
 END
@@ -131,7 +130,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_SETROUTEPRIOTITY_DIALOG, DIALOG
     BEGIN
@@ -152,15 +151,26 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SETROUTEPRIOTITY_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
 END
 
-#endif    // Korean resources
+#endif    // Korean (Korea) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

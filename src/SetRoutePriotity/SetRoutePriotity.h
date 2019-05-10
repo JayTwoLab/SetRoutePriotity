@@ -1,6 +1,9 @@
 // SetRoutePriotity.h : main header file for the PROJECT_NAME application
 //
 
+#ifndef _SET_ROUTE_PRI_H
+#define _SET_ROUTE_PRI_H
+
 #pragma once
 
 #ifndef __AFXWIN_H__
@@ -29,3 +32,5 @@ public:
 };
 
 extern CSetRoutePriotityApp theApp;
+
+#endif

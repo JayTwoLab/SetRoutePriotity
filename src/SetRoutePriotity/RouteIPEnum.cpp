@@ -17,9 +17,7 @@ BOOL CRouteIPEnum::EnumCallbackFunction(int nAdapter, const in_addr& address)
 	if ( m_pSetRoutePriotityDlg == NULL )
 		return TRUE; 
 
-	// printf("%0d        %d.%d.%d.%d\n", nAdapter, address.S_un.S_un_b.s_b1, 
-	//	address.S_un.S_un_b.s_b2, address.S_un.S_un_b.s_b3, address.S_un.S_un_b.s_b4);
-
+	// ip v4
 	CString strIP;
 	strIP.Format( 
 		_T(" %d.%d.%d.%d"),  
