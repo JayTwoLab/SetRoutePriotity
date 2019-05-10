@@ -1,6 +1,7 @@
 # SetRoutePriotity
 
-- Set Route Priotity on Windows
+- Set Route Priotity in Windows.
+- Current version is not stable version. IT IS JUST ALPHA VERSION.
 - You can select IPv4 address on your netwotk card for choosing metric reouter.
 
 ## Tested Environment
